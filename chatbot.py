@@ -15,6 +15,10 @@ def send():
         txt.insert(END,"\n"+"Bot => I am a chatbot made using python. I will chat with you.")
     elif(e.get()=="that's great"):
         txt.insert(END,"\n"+"Bot => Yup")
+    elif(e.get()=="what are your hobbies"):
+        txt.insert(END,"\n"+"Bot => I like talking to people and giving advices to them.")
+    elif(e.get()=="that's great"):
+        txt.insert(END,"\n"+"Bot => Yup")
     elif(e.get()=="Ok bye"):
         txt.insert(END,"\n"+"Bot => Bye, Have a good day!")
     else:
